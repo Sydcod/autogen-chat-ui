@@ -9,7 +9,7 @@ from langchain.document_loaders import PyPDFLoader
 from langchain.memory import ConversationBufferMemory
 from langchain.llms import OpenAI
 from langchain.chains import ConversationalRetrievalChain
-import fitz  # PyMuPDF
+
 
 # Assuming the environment variable for OpenAI API key is already set up externally
 # os.environ['OPENAI_API_KEY'] = 'YOUR_OPENAI_API_KEY_HERE'
